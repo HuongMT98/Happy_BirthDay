@@ -9,6 +9,7 @@ body {
 body {
   background: url(https://images.alphacoders.com/104/thumb-1920-1046728.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 span {
@@ -55,6 +56,10 @@ span {
 .balloon > div:nth-child(1) > span {
   left: 30px;
   top: 3rem;
+  background: #cfe7fa;
+  background: linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .balloon > div:nth-child(1):before {
@@ -73,6 +78,19 @@ span {
 .balloon > div:nth-child(2) > span {
   left: 26px;
   top: 2rem;
+  background: #959595;
+  background: linear-gradient(
+    to right,
+    #959595 0%,
+    #0d0d0d 46%,
+    #010101 50%,
+    #0a0a0a 53%,
+    #4e4e4e 76%,
+    #383838 87%,
+    #1b1b1b 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .balloon > div:nth-child(2):before {
@@ -91,6 +109,10 @@ span {
 .balloon > div:nth-child(3) > span {
   left: 30px;
   top: 55px;
+  background: #00ff00;
+  background: linear-gradient(to left, #00ff00 0%, #00ffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .balloon > div:nth-child(3):before {
@@ -109,6 +131,16 @@ span {
 .balloon > div:nth-child(4) > span {
   left: 30px;
   top: 3rem;
+  background: #ffb76b;
+  background: linear-gradient(
+    to right,
+    #ffb76b 0%,
+    #ffa73d 30%,
+    #ff7c00 60%,
+    #ff7f04 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .balloon > div:nth-child(4):before {
@@ -351,6 +383,17 @@ h1 {
   position: relative;
   top: -6rem;
   text-align: center;
-  color: rgb(255, 0, 0);
+  /* color: rgb(255, 0, 0); */
   font-size: 3.5em;
+  background: #f85032;
+  background: linear-gradient(
+    to right,
+    #f85032 0%,
+    #f16f5c 50%,
+    #f6290c 51%,
+    #f02f17 71%,
+    #e73827 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
